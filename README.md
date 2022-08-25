@@ -13,3 +13,9 @@ docker run redis
 docker-compose up
 
 docker-compose up --build
+
+### running in background
+
+docker-compose up -d
+
+docker-compose down
