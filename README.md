@@ -14,6 +14,8 @@ docker-compose up
 
 docker-compose up --build
 
+#build is required when change in index.js not in docker-compose.yml#
+
 ### running in background
 
 docker-compose up -d
